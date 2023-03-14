@@ -1,0 +1,103 @@
+:root {
+    --color1: #00A4E5;
+    --color_h3: #48555B;
+    --color2: #141A20;
+}
+section {
+    padding: 100px 0 0 0;
+}
+.coler-text {
+    color:var(--color_h3)
+}
+
+.header_bg {
+    background: url(../img/bg.png) center / cover no-repeat;
+    min-height: 770px;
+}
+.style_container_header h2 {
+    margin-top: 40px;
+}
+.style_container_header h1 {
+    margin-top: 320px;
+}
+.style_text {
+    margin-top: 221px;
+}
+/* navbar */
+.header {
+    border-bottom: 1px solid #E6E6E6
+}
+.navbar-nav {
+    --bs-nav-link-hover-color: var(--color1);
+}
+.navbar-brand {
+    padding-top: 0;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+/* section our story */
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px auto 30px;
+}
+.style_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pow {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+.top_left_text {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.style_cards {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* section our capabilities */
+.btn_style{
+    background: var(--color1);
+}
+.line_start {
+    width: 100px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px 0 30px 0;
+}
+.cards {
+    border: 1px solid #E6E6E6;
+}
+/* section city */
+.city_bg {
+    background: url(../img/bgCity.png) center / cover no-repeat;
+    min-height: 499px;
+}
+/* footer */
+.footer_bg {
+    background-color:  var(--color2);
+    color: var(--color_h3);
+}
+.footer_bg a{
+    color: var(--color_h3);
+    text-decoration: none;
+}
+.footer_bg a:hover {
+    color: #E6E6E6;
+}
+.input-group {
+    width: auto;
+}
+.style_btn {
+    padding: 0 40px;
+}
+.link_style {
+    padding-top: 32px;
+}
